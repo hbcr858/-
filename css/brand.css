@@ -1,0 +1,25 @@
+/* Original artwork is extracted from the supplied brand board without redrawing. */
+.wordmark .original-logo{display:block;width:112px;height:auto;max-height:76px;object-fit:contain}
+.hero h1{padding:0;line-height:1}
+.original-wordmark{display:block;width:min(77%,1050px);height:auto}
+.hero-title{padding-top:34px}
+.hero-english{margin-top:12px}
+.hero-top,.hero-bottom,.section-label,.about-statement,.closing-bottom{border:0}
+.trait,.trait:last-child{border:0}
+.trait{padding:27px 16px}
+.trait.active{background:#ffffff08}
+.trait-description{color:#c4c5bd}
+.round-link{border:0;background:#111;color:#eeede7}
+.round-link:hover{background:#333}
+.scroll-progress{display:none}
+.outline{color:#111;-webkit-text-stroke:0}
+.about-statement>span:nth-child(2){color:#77786e;-webkit-text-stroke:0}
+.mood-heading h2 span{color:#77786e;-webkit-text-stroke:0}
+.closing h2>span{color:#aaa99f;-webkit-text-stroke:0}
+@media(max-width:600px){
+ .wordmark .original-logo{width:78px;max-height:54px}
+ .original-wordmark{width:100%;height:auto}
+ .hero-title{padding-top:30px}
+ .hero-english{margin-top:13px}
+ .trait{padding:22px 8px}
+}
